@@ -63,7 +63,11 @@ nav ul li a:hover::after {
 #about {
   padding: 80px 0;
   color: black;
-  background-color: #c0c0c0;
+  background: radial-gradient(
+    1023px at 3.1% 6.9%,
+    rgb(255, 255, 255) 0%,
+    rgb(205, 40, 83) 74.9%
+  );
 }
 .row {
   display: flex;
@@ -114,7 +118,7 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 .tab-contents ul li span {
-  color: #b54769;
+  color: whitesmoke;
   font-size: 14px;
 }
 .tab-contents {
@@ -125,7 +129,11 @@ nav ul li a:hover::after {
 }
 /*----------contact-------*/
 #contact {
-  background-color: #b54769;
+  background: radial-gradient(
+    1023px at 3.1% 6.9%,
+    rgb(255, 255, 255) 0%,
+    rgb(205, 40, 83) 74.9%
+  );
 }
 .contact-left {
   flex-basis: 35%;
